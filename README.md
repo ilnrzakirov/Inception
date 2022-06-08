@@ -24,3 +24,10 @@
 su (пароль root)
 /sbin/adduser username sudo
 ```
+##### Меняем hostname:
+```
+hostname <name>
+sudo vim /etc/hosts. (меняем вручную имя hosta)
+```
+
+
