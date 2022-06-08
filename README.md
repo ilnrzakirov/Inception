@@ -1,2 +1,4 @@
 # Inception
-This project aims to broaden your knowledge of system administration by using Docker. You will virtualize several Docker images, creating them in your new personal virtual machine.
+Цель этого проекта - расширить ваши знания в области системного администрирования с помощью Docker. Вы виртуализируете несколько образов Docker, создав их на своей новой персональной виртуальной машине.
+
+
