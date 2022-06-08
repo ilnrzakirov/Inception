@@ -21,5 +21,6 @@
 
 ##### Добавляем пользователя в группу sudo:
 ```
+su (пароль root)
 /sbin/adduser username sudo
 ```
