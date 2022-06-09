@@ -51,4 +51,4 @@ sudo ufw allow ssh
   > <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-ru">Ubuntu</a> <br>
 </details>
 
-<a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-ru"></a>Установка и использование Docker Compose<br>
+<a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-ru">Установка и использование Docker Compose</a><br>
