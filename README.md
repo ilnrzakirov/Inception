@@ -42,3 +42,5 @@ sudo ufw allow ssh
 
 <a href="https://losst.ru/nastrojka-ssh-v-debian/">Настройка SSH</a> <br>
 
+> Если есть проблемы при подключении посмотри ~/.ssh/known_hosts
+
