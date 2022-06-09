@@ -44,3 +44,9 @@ sudo ufw allow ssh
 
 > Если есть проблемы при подключении посмотри ~/.ssh/known_hosts
 
+<details>
+     <summary>Установка Docker</summary>
+  
+  > <a href="https://computingforgeeks.com/install-docker-and-docker-compose-on-debian/">Debian</a> <br>
+  > <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04-ru">Ubuntu</a> <br>
+</details>
