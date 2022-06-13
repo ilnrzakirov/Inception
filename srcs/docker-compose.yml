@@ -22,4 +22,32 @@ services:
       - db: /var/lib/mysql
     networks:
       - project
+    restart: always
+  wordpress:
+    container_name: wordpress
+    build: requirements/wordpress
+    hostname: localhost
+    volumes:
+      - wp: /var/www/wordpress
+    networks:
+      - project
+    depends_on:
+      - mariadb
+    restart: always
 
+volumes:
+  db:
+    driver: local
+    driver_opts:
+      typr: none
+      o: bind
+      device: ~/data/db
+  wp:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ~/data/wp
+networks:
+  project:
+    driver: bridge
