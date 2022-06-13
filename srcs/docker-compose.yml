@@ -19,7 +19,7 @@ services:
     build: requirements/mariadb
     hostname: localhost
     volumes:
-      - db: /var/lib/mysql
+      - db:/var/lib/mysql
     environment:
       DB_NAME: ${DB_NAME}
       DB_USER: ${DB_USER}
@@ -33,7 +33,7 @@ services:
     build: requirements/wordpress
     hostname: localhost
     volumes:
-      - wp: /var/www/wordpress
+      - wp:/var/www/wordpress
     networks:
       - project
     depends_on:
