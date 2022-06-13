@@ -7,4 +7,5 @@ ARG DB_USER=$DB_USER
 ARG DB_PASWORD=$DB_PASWORD
 RUN chmod +x install.sh
 RUN sh install.sh
+RUN rm install.sh
 CMD ./start.sh
