@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  nginx:
+    container_name: nginx
+    build: requirements/nginx
+    hostname: localhost
+    volumes:
+      - wp:/var/www/wordpress
+    networks:
+      - project
+    ports:
+      - "443:443"
+    depends_on:
+      - wordpress
+    restart: always
+  mariadb:
+    container_name: mariadb
+    build: requirements/mariadb
+    hostname: localhost
+    volumes:
+      - db: /var/lib/mysql
+    networks:
+      - project
+
