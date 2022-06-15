@@ -23,7 +23,7 @@ services:
     environment:
       DB_NAME: ${DB_NAME}
       DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PASRWORD}
+      DB_PASSWORD: ${DB_PASSWORD}
       DB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
     networks:
       - project
@@ -56,13 +56,13 @@ volumes:
     driver_opts:
       type: none
       o: bind
-      device: ~/data/db
+      device: /home/${USER}/data/db
   wp:
     driver: local
     driver_opts:
       type: none
       o: bind
-      device: ~/data/wp
+      device: /home/${USER}/data/wp
 networks:
   project:
     driver: bridge

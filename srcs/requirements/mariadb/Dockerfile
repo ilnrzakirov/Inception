@@ -6,5 +6,5 @@ ARG DB_NAME=$DB_NAME
 ARG DB_USER=$DB_USER
 ARG DB_PASWORD=$DB_PASWORD
 RUN sh install.sh
-RUN rm unstall.sh
+RUN rm install.sh
 CMD sh start.sh
