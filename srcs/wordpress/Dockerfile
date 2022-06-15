@@ -19,4 +19,6 @@ RUN mkdir /run/php/
 
 WORKDIR /var/www/wordpress
 COPY /tools/start.sh .
+RUN chmod 777 ./start.sh
+CMD ./start.sh
 
