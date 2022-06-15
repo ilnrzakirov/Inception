@@ -23,7 +23,7 @@ services:
     environment:
       DB_NAME: ${DB_NAME}
       DB_USER: ${DB_USER}
-      DB_PASSWORD: ${DB_PARRWORD}
+      DB_PASSWORD: ${DB_PASRWORD}
       DB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
     networks:
       - project

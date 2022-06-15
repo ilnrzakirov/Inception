@@ -4,7 +4,7 @@ RUN sudo apt update
 
 RUN sudo apt install -y php7.3 php-mysqli php-fpm mariadb-client curl sendmail
 
-COPY ./tools/www.conf /etc/php/7.3/fpm/pool.d
+COPY tools/www.conf /etc/php/7.3/fpm/pool.d
 
 ADD https://ru.wordpress.org/wordpress-5.7.2-ru_RU.tar.gz /var/www/
 RUN cd /var/www
