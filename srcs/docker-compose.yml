@@ -54,7 +54,7 @@ volumes:
   db:
     driver: local
     driver_opts:
-      typr: none
+      type: none
       o: bind
       device: ~/data/db
   wp:
