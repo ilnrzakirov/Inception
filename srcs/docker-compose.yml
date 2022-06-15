@@ -34,6 +34,16 @@ services:
     hostname: localhost
     volumes:
       - wp:/var/www/wordpress
+    environment:
+      DB_HOST: ${DB_HOST}
+      DB_NAME: ${DB_NAME}
+      DB_PASSWORD: ${DB_PASSWORD}
+      USER_NAME: ${USER_NAME}
+      USER_EMAIL: ${USER_EMAIL}
+      USER_ADMIN_EMAIL: ${USER_ADMIN_EMAIL}
+      DB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD}
+      DOMAIN_NAME: ${DOMAIN_NAME}
+      TITLE: ${TITLE}
     networks:
       - project
     depends_on:
