@@ -1,5 +1,5 @@
-apt-get update
-apt-get -y install nginx wget
+sudo apt-get update
+sudo apt-get -y install nginx wget
 openssl req -x509 -nodes -days 365 -newkey rsa:4096 \
 		-keyout /etc/ssl/private/nginx.key \
 		-out /etc/ssl/certs/nginx.crt \
