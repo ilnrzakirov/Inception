@@ -1,8 +1,8 @@
 FROM debian:buster
 
-RUN sudo apt update
+RUN apt-get update
 
-RUN sudo apt install -y php7.3 php-mysqli php-fpm mariadb-client curl sendmail
+RUN apt-get install -y php7.3 php-mysqli php-fpm mariadb-client curl sendmail
 
 COPY tools/www.conf /etc/php/7.3/fpm/pool.d
 
