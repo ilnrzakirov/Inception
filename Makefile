@@ -17,5 +17,3 @@ fclean:
 		docker volume rm $$(docker volume ls -q);\
 		sudo rm -Rf /home/${USER}/data/db
 		sudo rm -Rf /home/${USER}/data/wp
-		mkdir /home/${USER}/data/db
-		mkdir /home/${USER}/data/wp
