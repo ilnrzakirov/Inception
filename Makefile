@@ -13,7 +13,7 @@ ps:
 
 fclean:
 		docker system prune -a --force
-		@docker rmi -f $$(docker images -qa);\
+		@docker rm -f $$(docker images -qa);\
 		docker volume rm $$(docker volume ls -q);\
 		sudo rm -Rf /home/${USER}/data/db
 		sudo rm -Rf /home/${USER}/data/wp
