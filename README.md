@@ -55,3 +55,4 @@ sudo ufw allow ssh
 
  > <a href="https://www.youtube.com/watch?v=_uZQtRyF6Eg&t=3s">Как писать Dockerfile  и docker-compose.yml</a> <br>
  > <a href="https://www.digitalocean.com/community/tutorials/how-to-install-wordpress-with-docker-compose-ru">Установка wordpress с помощью Docker </a> <br>
+ > <a href="https://api.wordpress.org/secret-key/1.1/salt/">Генерация ключей для  conf wordpress</a> <br>
